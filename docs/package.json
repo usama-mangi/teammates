@@ -2,7 +2,7 @@
   "name": "teammates-dev-docs",
   "private": true,
   "scripts": {
-    "build": "markbind build",
+    "build": "node init && markbind build",
     "serve": "markbind serve",
     "deploy": "markbind deploy --ci"
   },

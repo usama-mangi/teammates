@@ -1,8 +1,8 @@
 {
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --configuration production",
+    "start": "node init && ng serve",
+    "build": "node init && ng build --configuration production",
     "analyze": "webpack-bundle-analyzer src/web/dist/stats.json",
     "test": "ng test --watch",
     "coverage": "rimraf coverage && ng test --coverage",
